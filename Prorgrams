@@ -45,3 +45,20 @@ public class JavaFlip {
                 }
         }
 }
+
+//3. Write A Program to Heads or Tales in Java.
+import java.lang.Math;
+class Demo
+{
+	public static void main(String args[])
+	{
+		if(Math.random()>0.5)
+		{
+			System.out.print("Heads");
+		}
+		else
+		{
+			System.out.print("Tales");
+		}
+	}
+}
