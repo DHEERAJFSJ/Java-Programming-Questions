@@ -1,0 +1,47 @@
+//1.Write a program to check given number is even number or odd
+
+import java.util.*;
+public class Demo
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter No:");
+int number=sc.nextInt();
+if(number%2==0)
+{
+System.out.println("given "+" number "+ number+" is Even");
+}
+else 
+{
+System.out.println("Given "+" number "+number+" Is Odd");
+}
+}
+}
+//2.Write a program to check the length of a string
+
+import java.util.*;
+public class Demo
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter Name:");
+String name=sc.nextLine();
+System.out.println(name.length());
+}
+}
+/*3.This Java program is used to toss a coin using Java random class.
+
+Java Math.random() returns a random value between 0.0 and 1.0 each time.
+If value is below 0.5 then it's Heads or otherwise Tails.
+**/
+public class JavaFlip {
+        public static void main(String[] args) { 
+                if (Math.random() < 0.5){
+                        System.out.println("Heads");
+                }else{
+                        System.out.println("Tails");
+                }
+        }
+}
