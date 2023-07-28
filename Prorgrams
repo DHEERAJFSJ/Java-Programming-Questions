@@ -62,3 +62,44 @@ class Demo
 		}
 	}
 }
+//Program to Find The Second Heighest Number among Three numbers
+import java.util.*;
+class Demo
+{
+public static void main(String[] args) 
+	{
+	System.out.println("Enter Number :");
+	Scanner sc=new Scanner(System.in);
+	int num1=sc.nextInt();
+	int num2=sc.nextInt();
+	int num3=sc.nextInt();
+	if(num1>num2&&num1>num3)
+		{
+			if(num2>num3)
+			{
+				System.out.print(num2+"Is the 2nd Heighest");
+			}
+			else
+			{
+				System.out.print(num3+"Is the 2nd Heighest");
+			}
+		}
+       if(num2>num1&&num2>num3)
+		 {
+			if(num1>num3){
+				System.out.print(num1+"Is the 2nd Heighest");
+            }
+			else{
+				System.out.print(num3+"Is the 2nd Heighest");
+			}
+		}
+		else if(num1>num2)
+			{
+				System.out.print(num1+"Is the 2nd Heighest");
+            }
+		else
+		{
+		        System.out.print(num2+"Is the 2nd Heighest");
+		}
+	}
+}
