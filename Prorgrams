@@ -46,7 +46,7 @@ public class JavaFlip {
         }
 }
 
-//3. Write A Program to Heads or Tales in Java.
+//4. Write A Program to Heads or Tales in Java.
 import java.lang.Math;
 class Demo
 {
@@ -62,7 +62,7 @@ class Demo
 		}
 	}
 }
-//Program to Find The Second Heighest Number among Three numbers
+//5.Program to Find The Second Heighest Number among Three numbers
 import java.util.*;
 class Demo
 {
